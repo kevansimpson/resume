@@ -5,8 +5,8 @@
 - Articulate communicator with effective writing skills, presentation experience.
 
 ## Links
-- [Resume Summary](https://github.com/kevansimpson/resume/blob/main/Kevan%20Simpson%20-%20Resume%20Summary.pdf)
-- [Expanded Resume](https://github.com/kevansimpson/resume/blob/main/Kevan%20Simpson%20-%20Resume%202024.pdf)
+- [Resume Summary](https://github.com/kevansimpson/resume/blob/main/Kevan%20Simpson%20-%20Resume%20Summary%202025.pdf)
+- [Expanded Resume](https://github.com/kevansimpson/resume/blob/main/Kevan%20Simpson%20-%20Resume%202026.pdf)
 - [Wiki Resume](https://github.com/kevansimpson/resume/wiki)
 
 ## Values
