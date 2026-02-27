@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevan Simpson - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.25;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.35in 0.5in;
+            font-size: 9.5pt;
+        }
+        
+        @page {
+            margin: 0;
+        }
+        
+        h1 {
+            font-size: 22pt;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #1a1a1a;
+        }
+        
+        .contact {
+            font-size: 8.5pt;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .contact a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .summary {
+            font-size: 9.5pt;
+            line-height: 1.35;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            border-bottom: 1.5px solid #333;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            padding-bottom: 1px;
+        }
+        
+        .job {
+            margin-bottom: 8px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1px;
+        }
+        
+        .job-title-company {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 10pt;
+        }
+        
+        .company {
+            font-size: 9.5pt;
+            color: #444;
+        }
+        
+        .company a {
+            color: #444;
+            text-decoration: none;
+        }
+        
+        .company a:hover {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+        
+        .job-date {
+            font-size: 8.5pt;
+            color: #666;
+            font-style: italic;
+            flex-shrink: 0;
+        }
+        
+        .impact-statement {
+            font-style: italic;
+            color: #444;
+            margin-bottom: 2px;
+            font-size: 9pt;
+        }
+        
+        ul {
+            margin-left: 18px;
+            margin-bottom: 4px;
+        }
+        
+        li {
+            margin-bottom: 1.5px;
+            font-size: 9pt;
+            line-height: 1.3;
+        }
+        
+        .education {
+            font-size: 9pt;
+            margin-bottom: 2px;
+        }
+        
+        .strengths {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            font-size: 9pt;
+        }
+        
+        .strength-item {
+            margin-bottom: 3px;
+        }
+        
+        .strength-title {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+        
+        @media print {
+            body {
+                padding: 0.3in 0.4in;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Kevan Simpson</h1>
+    <div class="contact">
+        📧 kevan.simpson@gmail.com | 💼 <a href="https://www.linkedin.com/in/kevansimpson/">LinkedIn</a> | 🔗 <a href="https://github.com/kevansimpson">GitHub</a> | 📄 <a href="https://github.com/kevansimpson/resume/wiki/Frequently-Asked-Questions">Resume FAQ</a>
+    </div>
+    
+    <div class="summary">
+        Veteran software engineer who transforms complex technical challenges into scalable solutions that accelerate team velocity. Twenty years building enterprise applications across fintech, e-commerce, healthcare, and government—consistently delivering frameworks, tooling, and infrastructure that multiply engineering impact. Excel at rapidly mastering new technical environments and translating them into productive solutions.
+    </div>
+    
+    <h2>Professional Experience</h2>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Senior Software Engineer</div>
+                <div class="company"><a href="https://apexfintechsolutions.com/" target="_blank">Apex Fintech Solutions</a></div>
+            </div>
+            <div class="job-date">January 2025 - Present</div>
+        </div>
+        <div class="impact-statement">Accelerating deployment velocity for critical trading infrastructure</div>
+        <ul>
+            <li>Own end-to-end reliability for 30+ Java/Go microservices handling trade execution in GCP Kubernetes, expanding functionality and ensuring system stability as platform scales</li>
+            <li>Reduced deployment overhead by migrating services to new promotion framework with REST API and rewriting Python scripts</li>
+            <li>Created Claude Code slash command to simplify promotion of Terraform changes, reducing manual steps and deployment errors</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Software Development Engineer</div>
+                <div class="company"><a href="https://www.bluecrewjobs.com/" target="_blank">Bluecrew</a></div>
+            </div>
+            <div class="job-date">October 2023 - May 2024</div>
+        </div>
+        <div class="impact-statement">Delivered features that improved operational transparency and simplified complex migrations</div>
+        <ul>
+            <li>Led Timestamp Audit Trail implementation integrating Kotlin Spring Boot with legacy systems and building extensive React UI — providing complete edit history that reduced payroll disputes</li>
+            <li>Orchestrated seamless migration of payroll portal to new AWS Cognito authentication using feature flags, eliminating downtime during cutover</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Master Technical Skills Software Engineer</div>
+                <div class="company"><a href="https://www.ebay.com/" target="_blank">eBay</a></div>
+            </div>
+            <div class="job-date">May 2020 - May 2023</div>
+        </div>
+        <div class="impact-statement">Built recommendation framework that modernized critical revenue-driving system</div>
+        <ul>
+            <li>Architected complete replacement for legacy merchandising monolith: two Kotlin Spring Boot microservices and nine reusable libraries that became foundational infrastructure for multiple teams</li>
+            <li>Achieved 80% feature parity at MVP launch with comparable latency—proving new architecture could handle production scale while reducing technical debt</li>
+            <li>Enabled non-engineers to modify recommendation behavior through configuration rather than code, dramatically reducing deployment cadence and accelerating experimentation velocity</li>
+            <li>Created open-source API for merchandising orchestration, establishing patterns that standardized how teams built similar features</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Full Stack Engineer</div>
+                <div class="company"><a href="https://en.wikipedia.org/wiki/Azlo" target="_blank">Azlo</a></div>
+            </div>
+            <div class="job-date">April 2019 - May 2020</div>
+        </div>
+        <div class="impact-statement">Accelerated feature delivery through infrastructure improvements and shared tooling</div>
+        <ul>
+            <li>Extracted monolithic verifications into dedicated TypeScript microservice, reducing deployment coupling and enabling independent team velocity</li>
+            <li>Built configurable ETL service using MongoDB Watcher API streaming to AWS S3/Kafka—eliminating custom data export requests</li>
+            <li>Transformed Optimizely POC into production-ready TypeScript module and migrated 10+ services, standardizing feature flag usage</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Java Developer (QA)</div>
+                <div class="company"><a href="https://www.usbank.com/index.html" target="_blank">USBank</a></div>
+            </div>
+            <div class="job-date">December 2018 - February 2019</div>
+        </div>
+        <div class="impact-statement">Improved test infrastructure and developer productivity</div>
+        <ul>
+            <li>Created test harness for KYC application, ported code from JMeter BeanShell scripts, and simplified test POJO creation</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Senior Software Engineer</div>
+                <div class="company"><a href="https://finity.com/" target="_blank">Finity Communications</a></div>
+            </div>
+            <div class="job-date">December 2017 - October 2018</div>
+        </div>
+        <div class="impact-statement">Built healthcare data processing and privacy compliance systems</div>
+        <ul>
+            <li>Reimplemented ETL application using Spring Boot and Apache Camel after assisting with initial MapForce EDI and Apache Nifi implementation</li>
+            <li>Developed anonymizing application following Safe Harbor method to redact PHI from AWS S3 and local file systems</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Senior Software Engineer</div>
+                <div class="company"><a href="https://www.entrust.com/partners/directory/iovation" target="_blank">iovation</a></div>
+            </div>
+            <div class="job-date">October 2015 - August 2017</div>
+        </div>
+        <div class="impact-statement">Improved system reliability and mentored team through infrastructure overhaul</div>
+        <ul>
+            <li>Led complete reconfiguration of ActiveMQ message brokers with failover and load balancing, eliminating single points of failure</li>
+            <li>Mentored SRE team through infrastructure changes, establishing documentation that reduced incident response time</li>
+            <li>Refactored legacy libraries into Spring Boot autoconfiguration modules, reducing boilerplate and onboarding time</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Software Engineer</div>
+                <div class="company"><a href="https://www.obsglobal.com/" target="_blank">Online Business Systems</a></div>
+            </div>
+            <div class="job-date">November 2012 - October 2015</div>
+        </div>
+        <div class="impact-statement">Delivered integration platform connecting fragmented government systems</div>
+        <ul>
+            <li>Implemented enterprise service bus using JBoss Fuse connecting RMS, CAD, Jail Management, and Property systems — eliminating manual data transfer</li>
+            <li>Created automated installation scripts and failover configuration, reducing deployment time from days to hours</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Software Engineer</div>
+                <div class="company"><a href="https://us.dealertrack.com/new/" target="_blank">DealerTrack</a></div>
+            </div>
+            <div class="job-date">March 2012 - October 2012</div>
+        </div>
+        <div class="impact-statement">Built vehicle search and financing platform</div>
+        <ul>
+            <li>Developed web application to search for and finance vehicles, implementing feed mediator to geolocate dealers</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Application Engineer</div>
+                <div class="company"><a href="https://www.nike.com/ie/" target="_blank">Nike</a></div>
+            </div>
+            <div class="job-date">August 2011 - November 2011</div>
+        </div>
+        <div class="impact-statement">Engineered event notification infrastructure</div>
+        <ul>
+            <li>Built event notification system via JMS/JBoss and created reusable servlet component for system integration</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Web Developer</div>
+                <div class="company"><a href="https://www.modahealth.com/" target="_blank">Moda Health</a></div>
+            </div>
+            <div class="job-date">May 2010 - August 2011</div>
+        </div>
+        <div class="impact-statement">Established foundation for team productivity and code quality</div>
+        <ul>
+            <li>Set up company's first Maven repository and build automation, eliminating hours of manual dependency management</li>
+            <li>Developed core libraries and standardized tech stack, reducing code duplication and accelerating new engineer onboarding</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Senior Software Engineer</div>
+                <div class="company"><a href="https://en.wikipedia.org/wiki/Sun_Microsystems" target="_blank">Sun Microsystems</a></div>
+            </div>
+            <div class="job-date">September 2004 - February 2010</div>
+        </div>
+        <div class="impact-statement">Led service infrastructure components used across organization</div>
+        <ul>
+            <li>Technical lead for XSLT Service Engine, enabling teams to deploy XSL stylesheets as web services without writing Java code</li>
+            <li>Implemented stackable Java libraries for JBI components with redelivery, throttling, and JMX management—patterns adopted across Sun integration products</li>
+        </ul>
+    </div>
+    
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title-company">
+                <div class="job-title">Application Associate / Enterprise Architect</div>
+                <div class="company"><a href="https://www.safeway.com/" target="_blank">Safeway</a></div>
+            </div>
+            <div class="job-date">May 2000 - September 2004</div>
+        </div>
+        <div class="impact-statement">Pioneered reusable software practices and delivered high-ROI enterprise system</div>
+        <ul>
+            <li>Inaugural member of Reusable Software Group developing custom SOA framework and common libraries used across all development sites</li>
+            <li>Led Demand Aggregation enterprise forecasting application integrating legacy mainframes with web services — delivering $10B ROI over 6 years</li>
+            <li>Earned company-wide recognition as Advanced Java Product Usage Expert for technical excellence and knowledge sharing</li>
+        </ul>
+    </div>
+    
+    <h2>Education</h2>
+    <div class="education"><strong>B.S. Cognitive Science, Specialization: Computing</strong> — UCLA</div>
+    <div class="education"><strong>Sun Certified Java Programmer</strong> — 2002</div>
+    
+    <h2>What Sets Me Apart</h2>
+    <div class="strengths">
+        <div class="strength-item">
+            <span class="strength-title">Rapid Technical Adaptation:</span> Delivered production systems across Java, Kotlin, and TypeScript, with additional experience in Scala, Python, and other languages—demonstrating ability to thrive in any technical environment
+        </div>
+        <div class="strength-item">
+            <span class="strength-title">Force Multiplier Mindset:</span> Consistently build frameworks, libraries, and tooling that accelerate entire teams rather than optimizing only individual productivity
+        </div>
+        <div class="strength-item">
+            <span class="strength-title">Production Ownership:</span> Comfortable with full lifecycle responsibility from architecture through operations, including infrastructure-as-code, deployment automation, and reliability practices
+        </div>
+        <div class="strength-item">
+            <span class="strength-title">Cross-Functional Collaboration:</span> Excel at working with product managers, designers, and domain experts to identify highest-impact problems and translate requirements into elegant solutions
+        </div>
+    </div>
+</body>
+</html>
